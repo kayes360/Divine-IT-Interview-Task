@@ -52,7 +52,7 @@ export default function Login() {
                   <div className="mx-auto text-center">
                     <Link to="/">
                       <button type="submit" className="btn btn-primary w-100" onClick={login}>
-                        Submit
+                        Login
                       </button>
                     </Link>
                   </div>
