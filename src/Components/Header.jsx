@@ -17,7 +17,7 @@ export default function Header() {
 
       <div className="col-md-9 col-lg-10  ">
         <div className="float-end  my-2"> 
-          <Link to="/login" className="">
+          <Link to="/login" >
             <button className="btn btn-info" type="submit" onClick={signOut}>
               Sign Out
             </button>
